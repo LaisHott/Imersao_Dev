@@ -1,0 +1,75 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://wallpapercave.com/wp/wp2647934.png");
+  background-color: #111;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid #049CD8;
+  border-collapse: collapse;
+}
+
+h1 {
+  color:#FBD000;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 1px black;
+}
+
+th,
+tr,
+td {
+  border: solid 1px #049CD8;
+  background-color: rgba(0, 0, 139, 0.235);
+  color: #FBD000;
+  text-shadow: 1px 1px 1px black;
+}
+
+.avatar {
+  max-width: 50px;
+}
+
+button {
+  background-color: #002351;
+  color: #FBD000;
+}
+
+#resultado {
+  background-color: rgba(0, 0, 139, 0.235);
+  color: #FBD000;
+  text-shadow: 1px 1px 1px black;
+}
